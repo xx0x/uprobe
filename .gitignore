@@ -1,0 +1,15 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# KiCad temporary, backup, and cache files
+*.bak
+*.lck
+*.kicad_prl
+fp-info-cache
+
+# KiCad auto-generated backups
+*-backups/
+
+# Ignore specific backup and lock files
+~*.kicad_pcb.lck
