@@ -1,0 +1,207 @@
+(footprint "IDC_2x05_SIDE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J**"
+		(at -2.54 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8570395e-02de-40e2-ae74-fe72306a37c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Side Mounted 2x05 IDC Header"
+		(at 14.605 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b6bce7ac-a07c-4786-acf1-b17502488c61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53f07482-1f26-4be5-9ae3-7d0dcdfd51c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef8efefb-1ae7-4cae-a91d-936e9184e497")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -0.635 -7.62) (xy 0 -6.35) (xy 0.635 -7.62)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f24ce293-abbc-4caf-b862-4621ec0cbd60")
+	)
+	(fp_rect
+		(start 1.905 -10.16)
+		(end 11.005 10.16)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "78defad8-fbdf-4c8e-98f1-e3f6ff05aea6")
+	)
+	(fp_rect
+		(start 6.985 -2.25)
+		(end 11.005 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4f9aea26-2065-473e-bde5-cfec57ea2ac5")
+	)
+	(fp_poly
+		(pts
+			(xy 10.16 -8.89) (xy 8.89 -8.255) (xy 10.16 -7.62)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "9ec832ca-23b6-404e-81ba-24fb0634976e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.7 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dfdb0b00-819b-4c96-88c4-f74cb9da5886")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -5.08)
+		(size 3 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "656b4af9-5e3c-46b1-bbbd-8520fa6834d9")
+	)
+	(pad "2" smd roundrect
+		(at 0 -5.08)
+		(size 3 1.27)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "5c553532-f5ce-4ddc-ab8f-cdf0fcc804e4")
+	)
+	(pad "3" smd roundrect
+		(at 0 -2.54)
+		(size 3 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "8116a152-1008-4011-8196-794cbf56eeec")
+	)
+	(pad "4" smd roundrect
+		(at 0 -2.54)
+		(size 3 1.27)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c80153a8-cade-4d32-bf55-4091471ec905")
+	)
+	(pad "5" smd roundrect
+		(at 0 0)
+		(size 3 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "6be9a976-e2e5-4188-ab8e-f76de0de215f")
+	)
+	(pad "6" smd roundrect
+		(at 0 0)
+		(size 3 1.27)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "8f92e2b3-5f4f-412c-bcc0-84735f6275ab")
+	)
+	(pad "7" smd roundrect
+		(at 0 2.54)
+		(size 3 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "a934f5e2-f3d0-48c5-835c-a93286278367")
+	)
+	(pad "8" smd roundrect
+		(at 0 2.54)
+		(size 3 1.27)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "3da1724a-13c0-44a5-b351-a764c3fd21da")
+	)
+	(pad "9" smd roundrect
+		(at 0 5.08)
+		(size 3 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "923206c4-50fe-4b53-8537-c618942ec43b")
+	)
+	(pad "10" smd roundrect
+		(at 0 5.08)
+		(size 3 1.27)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "2a49d964-212b-4663-9733-bf9b08b0628f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.step"
+		(offset
+			(xyz 1.5 5.08 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)

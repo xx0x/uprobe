@@ -1,0 +1,249 @@
+(footprint "XUNPU_TS-1088-AR02016"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302330_XUNPU-TS-1088-AR02016_C720477.pdf")
+	(tags "SPST button tactile switch")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "4a45178c-959d-4a9d-a7c5-89a2743832e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XUNPU_TS-1088-AR02016"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "35a874af-5fa4-4ecb-ab82-4efe0bc82e10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30a55ff2-0dbc-43ac-99d3-5d7123be8bd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39d99fdb-e24e-4ece-b8ce-5d41627b0413")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.45)
+		(end -2 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e445dd40-845a-4bf5-a65d-60d06883aaea")
+	)
+	(fp_line
+		(start -2 -1.45)
+		(end 2 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9f9b7ea-447c-4e41-bf45-5fb9f88f4f25")
+	)
+	(fp_line
+		(start -2 1.095)
+		(end -2 1.445)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0af38696-a586-43c7-b0f1-2f517c6fe6c8")
+	)
+	(fp_line
+		(start -2 1.45)
+		(end 2 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9bf6fb8-0c66-444a-a8ee-9bf5fee96b60")
+	)
+	(fp_line
+		(start 2 -1.445)
+		(end 2 -1.095)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d0bd052-a61a-462e-a7c7-b6cbd8f943de")
+	)
+	(fp_line
+		(start 2 1.095)
+		(end 2 1.445)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fddd3e2e-6012-4b1b-80c0-11340d25a75f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a36fdbbb-a02f-4cce-8006-e8076d047f25")
+	)
+	(fp_line
+		(start -3.175 -2.05)
+		(end 3.175 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58084440-9475-4f1e-a2ce-8b111d79d393")
+	)
+	(fp_line
+		(start -3.175 2.05)
+		(end -3.175 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e882da3e-60c4-4cb7-8ad7-23323f61514d")
+	)
+	(fp_line
+		(start 3.175 -2.05)
+		(end 3.175 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4f059c7-e449-4714-bfe6-52e67b93d4d8")
+	)
+	(fp_line
+		(start 3.175 2.05)
+		(end -3.175 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a0bff32-1efd-4a3c-a0f3-01e145c7baf8")
+	)
+	(fp_rect
+		(start -2.4 -0.65)
+		(end -2 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "86e22cde-2faf-471d-8ad1-8cc3cb4479c3")
+	)
+	(fp_rect
+		(start -2 -1.45)
+		(end 2 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8142d1c1-cf2d-4c75-964e-f3933dc4a80e")
+	)
+	(fp_rect
+		(start 2 -0.65)
+		(end 2.4 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "23babbb1-7ceb-426b-a5d6-c1273a4f7b29")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.635 0.635)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6a09ac5b-e907-4a9a-86f6-994adc5b5a28")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.6 0)
+		(layer "F.Fab")
+		(uuid "11e06880-7b3a-4fa1-9dfc-b4807f21bc83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.075 0)
+		(size 1.35 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1851851852)
+		(uuid "0e1af636-214f-4e8c-94e4-d5a1fe4a9ee4")
+	)
+	(pad "2" smd roundrect
+		(at 2.075 0)
+		(size 1.35 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1851851852)
+		(uuid "7b64980f-9648-438e-ae36-5c5a0031d803")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/TS-1088-AR02016.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

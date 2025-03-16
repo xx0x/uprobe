@@ -1,0 +1,138 @@
+(footprint "XL-3210SURUGC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.651 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6d58e820-0c0b-4ace-9db0-9167fac5c476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XL-3210SURUGC"
+		(at 0 5.842 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2fcee1f5-3a5d-4afe-8980-abca1a76826e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -0.127 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a871eb64-052d-4ed9-b24c-2b8ad87fac9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.127 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3096f73-d77a-4315-98dc-dc181afe00cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(fp_circle
+		(center -2.217985 -0.002139)
+		(end -2.259134 0.087047)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8c4bbc9d-99f8-41ae-aa28-14a5771c5a46")
+	)
+	(fp_rect
+		(start -1.6 -0.367)
+		(end 1.6 0.113)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6a8ccac0-384e-459a-ad89-61783ac48051")
+	)
+	(fp_arc
+		(start -1.1 -0.367)
+		(mid 0 -1.467)
+		(end 1.1 -0.367)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ec25a0c-7138-46d8-bc78-dfc43963ef1d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.556 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "648a931c-8553-43ff-97cb-33ffbd7d9de9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.4 0.22)
+		(size 0.5 0.44)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "19651ded-0015-4c09-b2fc-08413c0f5a03")
+	)
+	(pad "2" smd rect
+		(at -0.4 0.22)
+		(size 0.5 0.44)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e41b1ec2-7478-460e-b0b0-c18e91252678")
+	)
+	(pad "3" smd rect
+		(at 1.475 0)
+		(size 0.95 0.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "26171769-f89a-463c-8aa7-8f3becfe2e3e")
+	)
+	(pad "4" smd rect
+		(at -1.475 0)
+		(size 0.95 0.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2c9061b-5dd3-4ab0-ae87-cf54a92bd495")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_XINGLIGHT_1204_3210Metric_SideView.step"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)
