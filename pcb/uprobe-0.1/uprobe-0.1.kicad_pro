@@ -186,7 +186,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -509,6 +511,14 @@
       {
         "netclass": "Power",
         "pattern": "VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/UASP_TARGET"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/SPK*"
       }
     ]
   },
