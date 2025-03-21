@@ -8913,6 +8913,10 @@
 		(uuid "036bd2b2-6642-4582-841f-e405d713cfb1")
 	)
 	(no_connect
+		(at 77.47 85.09)
+		(uuid "0d2665f9-2d17-4afc-a49d-fc56a554baaa")
+	)
+	(no_connect
 		(at 217.17 68.58)
 		(uuid "0ea9b282-bb10-449a-8eed-b381401427bc")
 	)
@@ -8925,8 +8929,20 @@
 		(uuid "12fb9a78-1809-40d6-9d41-714c74900b3e")
 	)
 	(no_connect
+		(at 77.47 74.93)
+		(uuid "131e738e-a4e6-4b13-9129-773a6deb0c07")
+	)
+	(no_connect
 		(at 44.45 64.77)
 		(uuid "21a023fd-bd54-49f2-95a2-ec97b10b49e5")
+	)
+	(no_connect
+		(at 77.47 69.85)
+		(uuid "257a9c6f-cca1-4144-b768-955386960948")
+	)
+	(no_connect
+		(at 77.47 87.63)
+		(uuid "26c1a463-0393-4bc3-b4b6-a0980cefd37a")
 	)
 	(no_connect
 		(at 247.65 78.74)
@@ -8969,6 +8985,10 @@
 		(uuid "77844e84-84d0-4d79-ab88-ff5889cc9e4e")
 	)
 	(no_connect
+		(at 77.47 82.55)
+		(uuid "7db59d62-fe18-48da-b3b6-6dbb60c9fe84")
+	)
+	(no_connect
 		(at 247.65 101.6)
 		(uuid "805ce7cf-ff21-4522-8696-f7ba1bd76b31")
 	)
@@ -8985,12 +9005,24 @@
 		(uuid "903c1323-4a0c-4412-91f3-0b1d1f52b8c7")
 	)
 	(no_connect
+		(at 77.47 90.17)
+		(uuid "abb1f06f-b589-4583-8723-7add24f60d14")
+	)
+	(no_connect
 		(at 247.65 81.28)
 		(uuid "ace61911-2217-43c4-9f6c-181529078b7e")
 	)
 	(no_connect
+		(at 77.47 67.31)
+		(uuid "b13315a6-d7e9-4cba-9b1e-1eb19af552a6")
+	)
+	(no_connect
 		(at 151.13 229.87)
 		(uuid "b4cda23a-32be-41b5-a76f-dfcc75d1fd18")
+	)
+	(no_connect
+		(at 77.47 80.01)
+		(uuid "b5ca66e8-ecd0-41b1-b938-02739f015d37")
 	)
 	(no_connect
 		(at 151.13 196.85)
@@ -9009,6 +9041,10 @@
 		(uuid "e20318b4-c07b-4228-8b94-c625f008b6bb")
 	)
 	(no_connect
+		(at 77.47 72.39)
+		(uuid "e845047d-eb15-40e3-82d2-7526a5d980be")
+	)
+	(no_connect
 		(at 247.65 96.52)
 		(uuid "e8bb2701-4b7e-42a3-833c-fb287730f525")
 	)
@@ -9023,6 +9059,10 @@
 	(no_connect
 		(at 151.13 201.93)
 		(uuid "fc1d91bc-ab66-45cb-8766-c0f6a78d4c22")
+	)
+	(no_connect
+		(at 77.47 77.47)
+		(uuid "fccd74b7-945d-44cb-a0c3-b9fa20732145")
 	)
 	(no_connect
 		(at 186.69 217.17)
@@ -9047,6 +9087,16 @@
 			(type default)
 		)
 		(uuid "003ef6f2-b41d-4cf0-aaf7-4314412f05e4")
+	)
+	(wire
+		(pts
+			(xy 77.47 95.25) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00982030-b85b-4eef-9b06-240b3ccd6c0e")
 	)
 	(wire
 		(pts
@@ -9670,6 +9720,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 97.79) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f18176-c678-43af-a59e-2627e669d907")
+	)
+	(wire
+		(pts
 			(xy 30.48 85.09) (xy 30.48 92.71)
 		)
 		(stroke
@@ -10077,6 +10137,16 @@
 			(type default)
 		)
 		(uuid "3ecee271-e60f-4bb4-9349-74293e2f1bc5")
+	)
+	(wire
+		(pts
+			(xy 77.47 92.71) (xy 82.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1db03e-e827-40f9-b9e2-b0ef8f355e10")
 	)
 	(wire
 		(pts
@@ -10897,6 +10967,16 @@
 			(type default)
 		)
 		(uuid "714b9b40-3896-45cd-bf33-71a3d904d97c")
+	)
+	(wire
+		(pts
+			(xy 77.47 100.33) (xy 82.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b32826-9732-4171-845f-6d53a38e6e80")
 	)
 	(wire
 		(pts
@@ -19782,6 +19862,82 @@
 			(project "uprobe-0.1"
 				(path "/663115e4-0f28-4879-a79a-00db74a12eda"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 87.63 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e73fe9a-a977-4fc8-8224-395401028ff7")
+		(property "Reference" "J8"
+			(at 90.17 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 90.17 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea5bf5b5-5aba-497b-9f42-2ddee6150ea2")
+		)
+		(pin "2"
+			(uuid "dce8493b-afe8-4b9a-b7e2-f1101abccad2")
+		)
+		(pin "3"
+			(uuid "c5c12364-b88d-46e8-ab90-b091493e09ec")
+		)
+		(pin "4"
+			(uuid "b3e724fe-ca6c-4668-8da2-ac30d351ba67")
+		)
+		(instances
+			(project ""
+				(path "/663115e4-0f28-4879-a79a-00db74a12eda"
+					(reference "J8")
 					(unit 1)
 				)
 			)
