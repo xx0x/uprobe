@@ -14,3 +14,7 @@ fp-info-cache
 # Ignore specific backup and lock files
 ~*.kicad_pcb.lck
 \#auto_saved_files#
+
+# Ignore files and directories inside the "firmware" directory but README.MD - they can be downloaded separately
+/firmware/*
+!/firmware/README.md
