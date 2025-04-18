@@ -8230,6 +8230,20 @@
 		)
 		(uuid "2bc7e897-8e4b-467c-ad6b-d0ff50ee8698")
 	)
+	(text "10k"
+		(exclude_from_sim no)
+		(at 126.492 232.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2eab002d-0c7d-4b70-bfd0-25bb98040770")
+	)
 	(text "3.3V / 1A "
 		(exclude_from_sim no)
 		(at 89.662 147.828 0)
@@ -8264,6 +8278,31 @@
 		)
 		(uuid "91df1a99-8fe8-4079-9285-eb61a9a12823")
 	)
+	(text "Can flash both 5V and 3V3 targets.\nCan also power the targets."
+		(exclude_from_sim no)
+		(at 117.348 29.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95401355-684d-40d6-a2aa-8d126fba717e")
+	)
+	(text "change to 5 pin with 3V3 VDD"
+		(exclude_from_sim no)
+		(at 128.016 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a34bf6f8-ba92-4f8c-970a-00d28101d3a0")
+	)
 	(text "COMMON"
 		(exclude_from_sim no)
 		(at 32.258 21.336 0)
@@ -8275,6 +8314,20 @@
 			)
 		)
 		(uuid "a93ec2ec-f2d7-4a3d-af32-a1189077c345")
+	)
+	(text "Change to latch-off type active low\nAP22652A\nAdd a solder jumper for each: CM4, On, Off"
+		(exclude_from_sim no)
+		(at 117.348 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ab92951e-e0c0-4c28-854a-07f5face750b")
 	)
 	(text "BM HW Version"
 		(exclude_from_sim no)
@@ -8306,6 +8359,20 @@
 		)
 		(uuid "c0184347-57fa-4876-aa90-a2e0e069c184")
 	)
+	(text "Green is power indication - remove that.\nUse PC1 for green and dont use PC0.\nUse RED for power fail."
+		(exclude_from_sim no)
+		(at 255.016 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c4067463-461b-4e69-b549-be5fa5d9fa3c")
+	)
 	(text "Green"
 		(exclude_from_sim no)
 		(at 270.002 59.436 90)
@@ -8326,6 +8393,34 @@
 		)
 		(uuid "dad8bdc2-87c3-4da5-8894-b898d174befe")
 	)
+	(text "0.1 errors are in red to be fixed in 0.2"
+		(exclude_from_sim no)
+		(at 120.396 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "db0b3021-2af6-4f21-a58e-3404b4677536")
+	)
+	(text "Change USBASP POWER to GPIO44 + 45\nOnly those are available on CM4\nRemove this pinheader"
+		(exclude_from_sim no)
+		(at 79.502 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e3f49b63-cbe4-4958-acf0-fa0178ec2624")
+	)
 	(text "Level conversion:\n5V (USBASP) <=> 3V3 (Target)"
 		(exclude_from_sim no)
 		(at 349.758 18.288 0)
@@ -8345,6 +8440,20 @@
 			)
 		)
 		(uuid "e972d53f-5954-4dac-9818-686d1a4b1b62")
+	)
+	(text "Add separate header for USBASP programming\nRemove the button"
+		(exclude_from_sim no)
+		(at 202.946 18.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ef1cfb1a-f4e9-4854-b4f5-e8b56ce5ff42")
 	)
 	(text "Green=\nTARGET\nPOWER\nOK"
 		(exclude_from_sim no)
